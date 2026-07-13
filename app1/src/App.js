@@ -12,7 +12,7 @@ function App() {
   );
   return (
     <>
-    <h3>Hello world<br></br>สวัสดีชาวโลก</h3>
+    <h3>Hello React</h3>
     <h3>{el}</h3>
     </>
   );
