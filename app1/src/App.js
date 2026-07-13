@@ -2,19 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  let r = "React"
-  let rn = "React Native"
-  const el=(
-    <div>
-      Created website & mobile app<br />
-      with {r} & {rn}
-    </div>
-  );
+  const divStyle = {
+    color: 'red',
+    backgroundColor: 'powderblue',
+    fontSize: 'larger',
+    padding: '3px',
+  };
   return (
-    <>
-    <h3>Hello React</h3>
-    <h3>{el}</h3>
-    </>
+    <div style={divStyle}>
+      <h3>Hello React</h3>
+    </div>
   );
 }
 
