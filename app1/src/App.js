@@ -4,13 +4,11 @@ import Header from "./context-header";
 import Content from "./context-content"
 import Content2 from "./context-content2"
 import Header2 from "./context-header2"
+import Router3 from "./router3";
 
 function App() {
   return (
-    <userContext.Provider value={"Tom Jerry"}>
-      <Header2 />
-      <Content2 />
-    </userContext.Provider>
+    <Router3/>
   );
 }
 export default App;
